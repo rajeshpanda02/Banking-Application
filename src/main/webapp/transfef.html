@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	.body{
+		height: 500px;
+		width: 99%;
+		background-color:lightblue;
+		background-size: cover;
+		background-position: center;
+		
+	}
+	.nb{
+		width: 1228px;
+		height: 10px;
+		background-color: blue;
+	}
+	.g{
+		background-color: navy;
+	}
+	.c img{
+		width: 106px;
+		height: 106px;
+		padding: 20px 20px;
+		margin: 10px 10px;
+		background-color: white;
+	}
+	.d{
+		text-align:right;
+		margin: 20px 20px;
+		background-color: black;
+	}
+	
+	.navbar{
+		background-color: blue;
+	}
+	.navbar ul{
+		overflow: auto;
+	}
+	.navbar li{
+		float: right;
+		list-style: none;
+		padding: 3px 3px;
+		margin: 10px 36px;
+	}
+	.navbar li a{
+		padding: 3px 3px;
+		text-decoration: none;
+		color:black;
+	}
+	.navbar li a:hover{
+		color: white;
+	}
+	
+</style>
+</head>
+<body class="body">
+	<header>
+		<nav class="nb">
+		</nav>
+	</header>
+	<div class="g">
+		<table>
+			<tr class="c">
+			<td><img src="sdfc.png"></td>
+			<td class=" t"><h1>SDFC BANK <br><h3>EXTRAORDINARY SERVICES</h3></br></h1></td>
+			
+		</tr>
+		</table>
+		
+		<nav class="navbar">
+			<ul>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="close.html">Close Account</a></li>
+				<li><a href="transfef.html">Transfer</a></li>
+				<li><a href="withdraw.html">Withdraw</a></li>
+				<li><a href="deposite.html">Deposite</a></li>
+				<li><a href="balance.html">Balance</a></li>
+				<li><a href="new.html">New Account</a></li>
+				<li><a href="home.html">Home</a></li>
+			</ul>
+		</nav>
+	</div>
+	<center>
+		<h3="color: white;"><U><B>TRANSFER FORM</B></U></h1>
+		<table border="0">
+        <form action="Transfer" method="post">
+		
+		<div>
+            <tr>
+                <td>
+                    <label for="acno"> My Account Number:</label>
+                </td>
+                <td>
+                    <input type="text" name="accno" required>
+                </td>
+            </tr>
+        </div>
+         <div>
+            <tr>
+                <td>
+                    <label for="na">Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="name" required>
+                </td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <label for="pass">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="psw" required>
+                </td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <label for="cpass">Recivers Account Number:</label>
+                </td>
+                <td>
+                    <input type="number" name="racc" required>
+                </td>
+             </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <label for="amnt">Amount:</label>
+                </td>
+                <td>    
+                    <input type="number" name="amount" required>
+                </td>
+            </tr>
+        </div>
+        <div>
+			<tr>
+                <td>
+                   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" value="Submit">
+                </td>
+                <td>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Clear">
+                </td>
+            </tr>
+        </div>
+       </form>
+    </table>
+</center>
+</body>
+</html>
